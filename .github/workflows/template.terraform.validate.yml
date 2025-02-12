@@ -37,7 +37,7 @@ permissions:
 jobs:
   Validate:
     name: "Validate"
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     environment: ${{ inputs.githubEnvironment }}
     steps:
       - uses: actions/checkout@v4
