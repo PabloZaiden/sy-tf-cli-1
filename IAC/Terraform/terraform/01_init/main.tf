@@ -10,6 +10,7 @@ resource "azurerm_resource_group" "tfstate_rg" {
   location = var.location
   tags = {
     GeneratedBy = "symphony"
+
   }
 }
 
